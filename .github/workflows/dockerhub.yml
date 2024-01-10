@@ -6,7 +6,7 @@ on:
     inputs:
       triggered_by:
         description: 'Triggered By'
-        required: true
+        required: false
         default: 'Manual'
   push:
     branches:
